@@ -10,6 +10,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 40,
+      "bundled": false,
       "readme": "Toggle between edit and preview modes for markdown files. Supports GFM tables, strikethrough, task lists, and more.",
       "capabilities": {
         "editorActions": {
@@ -59,6 +60,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 50,
+      "bundled": false,
       "readme": "Import OpenAPI collections (v3.0) and convert them into Voiden .void request files. Supports nested folders, headers, request bodies, and query parameters.",
       "capabilities": {
         "ui": {
@@ -123,6 +125,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 50,
+      "bundled": false,
       "readme": "Import Postman collections (v2.1) and automatically convert them into Voiden .void request files. Supports nested folders, headers, request bodies, and query parameters.",
       "capabilities": {
         "ui": {
@@ -188,6 +191,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 20,
+      "bundled": false,
       "readme": "Simple Assertions provides an easy way to write and execute assertions against HTTP responses. Use the `/assertions` slash command to insert an assertion table, then write your test cases using a simple two-column format: 'Description | Field | Operator' and 'Expected Value'. Assertion results are displayed as a sub-panel in the response tab.",
       "capabilities": {
         "blocks": {
@@ -223,6 +227,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 20,
+      "bundled": false,
       "readme": "Comprehensive authentication extension providing support for multiple authentication methods used by REST APIs.",
       "capabilities": {
         "blocks": {
@@ -276,6 +281,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 30,
+      "bundled": false,
       "readme": "Generates fake data using Faker.js in your HTTP requests. Use {{$faker.person.firstName()}} or {{$faker.number.int({\"min\":1,\"max\":10})}} syntax in headers, query params, path params, and request bodies.",
       "capabilities": {
         "pipeline": {
@@ -302,6 +308,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 15,
+      "bundled": false,
       "readme": "GraphQL extension with schema file importer and visual query builder UI. Select operations and fields from your schema or write queries manually. Supports queries, mutations, and subscriptions with variables. Independently builds and processes requests.",
       "capabilities": {
         "blocks": {
@@ -354,6 +361,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 10,
+      "bundled": false,
       "readme": "Complete REST API testing extension with HTTP methods, headers, query params, body, and response visualization. Built on the new SDK pipeline architecture.",
       "capabilities": {
         "blocks": {
@@ -448,6 +456,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 25,
+      "bundled": false,
       "readme": "Add JavaScript pre-request and post-response scripts to your API requests. Use the vd API to read/write request data, work with environment/runtime variables, and control request flow. Insert with /pre-script and /post-script slash commands. Note: for request body, pass a string payload; if you pass an object/JSON value it should be stringified.",
       "capabilities": {
         "blocks": {
@@ -512,6 +521,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 20,
+      "bundled": false,
       "readme": "Voiden Sockets provide support for WSS and gRPC Sockets with real-time communication capabilities",
       "capabilities": {
         "blocks": {
@@ -624,6 +634,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 35,
+      "bundled": false,
       "readme": "Define a stitch to batch-run multiple .void files using the /stitch slash command. Configure file patterns, exclusions, and run options. Results are shown in a dedicated sidebar tab with per-file pass/fail, assertion counts, and timing.",
       "capabilities": {
         "blocks": {
