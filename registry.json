@@ -47,7 +47,7 @@
         "Ordered and unordered lists",
         "Inline code and code blocks with syntax highlighting"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": true
     },
     "openapi-import": {
@@ -112,7 +112,7 @@
         "Nested folder support (unlimited depth)",
         "Handles special characters in names"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     },
     "postman-import": {
@@ -178,7 +178,7 @@
         "Handles special characters in names",
         "Converts Postman's raw mode to appropriate body types"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": true
     },
     "simple-assertions": {
@@ -214,7 +214,7 @@
         "Assertion results displayed as sub-panel in response",
         "Color-coded pass/fail indicators"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     },
     "voiden-advanced-auth": {
@@ -268,8 +268,8 @@
         "Inherit authentication from parent collections",
         "Quick auth type switching via dropdown"
       ],
-      "voidenVersion": ">=2.0.0",
-      "mainProcess": false
+      "voidenVersion": ">=1.0.0",
+      "mainProcess": true
     },
     "voiden-faker": {
       "id": "voiden-faker",
@@ -295,7 +295,7 @@
         }
       },
       "features": [],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     },
     "voiden-graphql": {
@@ -348,7 +348,7 @@
         "Schema viewer with tabs for Query/Mutation/Subscription operations",
         "Auto-generation of queries from UI selections"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     },
     "voiden-rest-api": {
@@ -443,7 +443,7 @@
         "Request/response pipeline integration",
         "History API integration: custom cURL builder for global history export"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     },
     "voiden-scripting": {
@@ -508,8 +508,8 @@
         "voiden.cancel() to cancel request from pre-script",
         "CodeMirror JavaScript editor with syntax highlighting"
       ],
-      "voidenVersion": ">=2.0.0",
-      "mainProcess": false
+      "voidenVersion": ">=1.0.0",
+      "mainProcess": true
     },
     "voiden-sockets-grpcs": {
       "id": "voiden-sockets-grpcs",
@@ -621,7 +621,7 @@
         "Support for multiple concurrent connections",
         "History API integration: websocat/grpcurl command builder for global history export"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     },
     "voiden-stitch": {
@@ -668,7 +668,7 @@
         "Abort/cancel support",
         "Export results to styled Excel report with per-file sheets, assertion breakdowns, and pass/fail percentages"
       ],
-      "voidenVersion": ">=2.0.0",
+      "voidenVersion": ">=1.0.0",
       "mainProcess": false
     }
   }
