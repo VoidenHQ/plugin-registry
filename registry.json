@@ -48,7 +48,7 @@
         "Inline code and code blocks with syntax highlighting"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": true
+      "mainProcess": true
     },
     "openapi-import": {
       "id": "openapi-import",
@@ -113,7 +113,7 @@
         "Handles special characters in names"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "postman-import": {
       "id": "postman-import",
@@ -179,7 +179,7 @@
         "Converts Postman's raw mode to appropriate body types"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": true
+      "mainProcess": true
     },
     "simple-assertions": {
       "id": "simple-assertions",
@@ -215,7 +215,7 @@
         "Color-coded pass/fail indicators"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-advanced-auth": {
       "id": "voiden-advanced-auth",
@@ -269,7 +269,7 @@
         "Quick auth type switching via dropdown"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-faker": {
       "id": "voiden-faker",
@@ -296,7 +296,7 @@
       },
       "features": [],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-graphql": {
       "id": "voiden-graphql",
@@ -349,7 +349,7 @@
         "Auto-generation of queries from UI selections"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-rest-api": {
       "id": "voiden-rest-api",
@@ -444,7 +444,7 @@
         "History API integration: custom cURL builder for global history export"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-scripting": {
       "id": "voiden-scripting",
@@ -509,7 +509,7 @@
         "CodeMirror JavaScript editor with syntax highlighting"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-sockets-grpcs": {
       "id": "voiden-sockets-grpcs",
@@ -622,7 +622,7 @@
         "History API integration: websocat/grpcurl command builder for global history export"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     },
     "voiden-stitch": {
       "id": "voiden-stitch",
@@ -669,7 +669,7 @@
         "Export results to styled Excel report with per-file sheets, assertion breakdowns, and pass/fail percentages"
       ],
       "voidenVersion": ">=2.0.0",
-      "hasMainProcess": false
+      "mainProcess": false
     }
   }
 }
