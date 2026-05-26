@@ -10,7 +10,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 40,
-      "bundled": false,
+      "bundled": true,
       "readme": "Toggle between edit and preview modes for markdown files. Supports GFM tables, strikethrough, task lists, and more.",
       "capabilities": {
         "editorActions": {
@@ -60,7 +60,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 50,
-      "bundled": false,
+      "bundled": true,
       "readme": "Import OpenAPI collections (v3.0) and convert them into Voiden .void request files. Supports nested folders, headers, request bodies, and query parameters.",
       "capabilities": {
         "ui": {
@@ -125,7 +125,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 50,
-      "bundled": false,
+      "bundled": true,
       "readme": "Import Postman collections (v2.1) and automatically convert them into Voiden .void request files. Supports nested folders, headers, request bodies, and query parameters.",
       "capabilities": {
         "ui": {
@@ -191,7 +191,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 20,
-      "bundled": false,
+      "bundled": true,
       "readme": "Simple Assertions provides an easy way to write and execute assertions against HTTP responses. Use the `/assertions` slash command to insert an assertion table, then write your test cases using a simple two-column format: 'Description | Field | Operator' and 'Expected Value'. Assertion results are displayed as a sub-panel in the response tab.",
       "capabilities": {
         "blocks": {
@@ -281,7 +281,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 30,
-      "bundled": false,
+      "bundled": true,
       "readme": "Generates fake data using Faker.js in your HTTP requests. Use {{$faker.person.firstName()}} or {{$faker.number.int({\"min\":1,\"max\":10})}} syntax in headers, query params, path params, and request bodies.",
       "capabilities": {
         "pipeline": {
@@ -308,7 +308,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 15,
-      "bundled": false,
+      "bundled": true,
       "readme": "GraphQL extension with schema file importer and visual query builder UI. Select operations and fields from your schema or write queries manually. Supports queries, mutations, and subscriptions with variables. Independently builds and processes requests.",
       "capabilities": {
         "blocks": {
@@ -521,7 +521,7 @@
       "author": "Voiden Team",
       "enabled": true,
       "priority": 20,
-      "bundled": false,
+      "bundled": true,
       "readme": "Voiden Sockets provide support for WSS and gRPC Sockets with real-time communication capabilities",
       "capabilities": {
         "blocks": {
