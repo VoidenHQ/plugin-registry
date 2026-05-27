@@ -8,9 +8,8 @@
       "description": "Live preview and rendering for Markdown files with full GitHub Flavored Markdown (GFM) support including tables, syntax highlighting, task lists, and strikethrough formatting",
       "version": "1.0.1",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 40,
-      "bundled": false,
+      "bundled": true,
       "readme": "Toggle between edit and preview modes for markdown files. Supports GFM tables, strikethrough, task lists, and more.",
       "capabilities": {
         "editorActions": {
@@ -58,9 +57,8 @@
       "description": "Seamlessly migrate from OpenAPI by importing v3.0 collections and converting them to native Voiden request files with full support for nested folders, environment variables, headers, auth, and all request body types",
       "version": "1.0.1",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 50,
-      "bundled": false,
+      "bundled": true,
       "readme": "Import OpenAPI collections (v3.0) and convert them into Voiden .void request files. Supports nested folders, headers, request bodies, and query parameters.",
       "capabilities": {
         "ui": {
@@ -123,9 +121,8 @@
       "description": "Seamlessly migrate from Postman by importing v2.1 collections and automatically converting them to native Voiden request files with full support for nested folders, environment variables, headers, auth, and all request body types",
       "version": "1.0.2",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 50,
-      "bundled": false,
+      "bundled": true,
       "readme": "Import Postman collections (v2.1) and automatically convert them into Voiden .void request files. Supports nested folders, headers, request bodies, and query parameters.",
       "capabilities": {
         "ui": {
@@ -189,9 +186,8 @@
       "description": "Add simple assertion testing to your HTTP requests with an easy-to-use table interface",
       "version": "1.0.0",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 20,
-      "bundled": false,
+      "bundled": true,
       "readme": "Simple Assertions provides an easy way to write and execute assertions against HTTP responses. Use the `/assertions` slash command to insert an assertion table, then write your test cases using a simple two-column format: 'Description | Field | Operator' and 'Expected Value'. Assertion results are displayed as a sub-panel in the response tab.",
       "capabilities": {
         "blocks": {
@@ -225,9 +221,8 @@
       "description": "Advanced authentication support for HTTP/REST APIs including Bearer Token, Basic Auth, API Key, OAuth 1.0/2.0, Digest, AWS Signature, and more",
       "version": "2.0.1",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 20,
-       "bundled": false,
+      "bundled": true,
       "readme": "Comprehensive authentication extension providing support for multiple authentication methods used by REST APIs.",
       "capabilities": {
         "blocks": {
@@ -279,9 +274,8 @@
       "description": "Generate fake data using Faker.js in your API requests",
       "version": "1.1.0",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 30,
-      "bundled": false,
+      "bundled": true,
       "readme": "Generates fake data using Faker.js in your HTTP requests. Use {{$faker.person.firstName()}} or {{$faker.number.int({\"min\":1,\"max\":10})}} syntax in headers, query params, path params, and request bodies.",
       "capabilities": {
         "pipeline": {
@@ -306,9 +300,8 @@
       "description": "GraphQL client with schema importer for building queries through a dedicated UI or editing manually. Supports queries, mutations, subscriptions with variables. Builds its own requests with auto-generated headers and POST method",
       "version": "1.0.0",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 15,
-      "bundled": false,
+      "bundled": true,
       "readme": "GraphQL extension with schema file importer and visual query builder UI. Select operations and fields from your schema or write queries manually. Supports queries, mutations, and subscriptions with variables. Independently builds and processes requests.",
       "capabilities": {
         "blocks": {
@@ -359,7 +352,6 @@
       "description": "HTTP/REST API testing toolkit with extensible request pipeline, custom blocks for headers/body, environment variables, response visualization, and support for all HTTP methods including multipart file uploads",
       "version": "1.4.1",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 10,
       "bundled": true,
       "readme": "Complete REST API testing extension with HTTP methods, headers, query params, body, and response visualization. Built on the new SDK pipeline architecture.",
@@ -454,7 +446,6 @@
       "description": "Pre-request and post-response JavaScript scripting for API requests with vd API access",
       "version": "1.1.0",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 25,
       "bundled": true,
       "readme": "Add JavaScript pre-request and post-response scripts to your API requests. Use the vd API to read/write request data, work with environment/runtime variables, and control request flow. Insert with /pre-script and /post-script slash commands. Note: for request body, pass a string payload; if you pass an object/JSON value it should be stringified.",
@@ -519,9 +510,8 @@
       "description": "Voiden Sockets provide comprehensive support for WebSocket (WSS) and gRPC communication with unary, server streaming, client streaming, and bidirectional streaming patterns",
       "version": "1.1.1",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 20,
-      "bundled": false,
+      "bundled": true,
       "readme": "Voiden Sockets provide support for WSS and gRPC Sockets with real-time communication capabilities",
       "capabilities": {
         "blocks": {
@@ -632,9 +622,8 @@
       "description": "Batch-run multiple .void files as a stitch with aggregated assertion results, variable isolation, and sequential execution",
       "version": "1.2.0",
       "author": "Voiden Team",
-      "enabled": true,
       "priority": 35,
-      "bundled": false,
+      "bundled": true,
       "readme": "Define a stitch to batch-run multiple .void files using the /stitch slash command. Configure file patterns, exclusions, and run options. Results are shown in a dedicated sidebar tab with per-file pass/fail, assertion counts, and timing.",
       "capabilities": {
         "blocks": {
