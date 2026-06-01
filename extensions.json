@@ -333,7 +333,7 @@
       "Schema viewer with tabs for Query/Mutation/Subscription operations",
       "Auto-generation of queries from UI selections"
     ],
-    "voidenVersion": ">=2.0.0",
+    "voidenVersion": ">=2.1.0",
     "mainProcess": false
   },
   {
