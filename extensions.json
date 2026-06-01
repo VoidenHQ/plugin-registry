@@ -648,7 +648,7 @@
     "voidenVersion": ">=1.0.0",
     "mainProcess": false
   },
-   {
+  {
     "type": "community",
     "id": "apyhub-explorer",
     "name": "ApyHub Explorer",
