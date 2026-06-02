@@ -658,5 +658,16 @@
     "icon": "https://apyverse.dev/logo.svg",
     "version": "1.1.0",
     "repo": "apyhub/voiden-apyhub-explorer"
+  },
+  {
+  "id": "theme-creator",
+  "name": "Theme Creator",
+  "description": "Create, edit, and live-preview custom color themes for Voiden — all without leaving the app.",
+  "version": "1.0.0",
+  "voidenVersion": ">=2.0.0",
+  "author": "Phurpa Tsering",
+  "icon": "Palette",
+  "type": "community",
+  "repo": "phurpa-tsering/theme-creator"
   }
 ]
