@@ -685,5 +685,19 @@
   "mainProcess": false,
   "bundled": false,
   "repo": "parvbajaj1/voiden-blueprints"
-  }
+  },
+  {
+  "id": "type-generator",
+  "name": "Type Generator",
+  "description": "Generate strongly-typed models from API responses. Supports TypeScript, Dart, Go, Kotlin, Swift, and Java via quicktype — live preview with copy to clipboard.",
+  "version": "1.0.2",
+  "voidenVersion": ">=2.0.0",
+  "author": "Parv Bajaj",
+  "icon": "Braces",
+  "type": "community",
+  "priority": 95,
+  "mainProcess": false,
+  "bundled": false,
+  "repo": "parvbajaj1/voiden-type-generator"
+}
 ]
