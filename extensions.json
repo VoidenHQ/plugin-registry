@@ -671,5 +671,19 @@
   "type": "community",
   "bundled": false,
   "repo": "phurpa-tsering/theme-creator"
+  },
+  {
+  "id": "blueprints",
+  "name": "Blueprints",
+  "description": "Save and reuse common API request structures as blueprints. Insert them anywhere with a slash command.",
+  "version": "1.0.8",
+  "voidenVersion": ">=2.0.0",
+  "author": "Parv Bajaj",
+  "icon": "src/blueprint.png",
+  "type": "community",
+  "priority": 30,
+  "mainProcess": false,
+  "bundled": false,
+  "repo": "parvbajaj1/voiden-blueprints"
   }
 ]
