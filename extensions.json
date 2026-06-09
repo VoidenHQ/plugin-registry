@@ -185,7 +185,7 @@
     "runnerAsset": "simple-assertions-runner.js",
     "name": "Simple Assertions",
     "description": "Add simple assertion testing to your HTTP requests with an easy-to-use table interface",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Voiden Team",
     "priority": 20,
     "bundled": true,
