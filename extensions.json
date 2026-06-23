@@ -221,7 +221,7 @@
     "runnerAsset": "voiden-advanced-auth-runner.js",
     "name": "Advanced Authentication",
     "description": "Advanced authentication support for HTTP/REST APIs including Bearer Token, Basic Auth, API Key, OAuth 1.0/2.0, Digest, AWS Signature, and more",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": "Voiden Team",
     "priority": 20,
     "bundled": true,
@@ -264,7 +264,7 @@
       "Inherit authentication from parent collections",
       "Quick auth type switching via dropdown"
     ],
-    "voidenVersion": ">=1.0.0",
+    "voidenVersion": ">=2.1.0",
     "mainProcess": true
   },
   {
@@ -302,7 +302,7 @@
     "runnerAsset": "voiden-graphql-runner.js",
     "name": "Voiden GraphQL",
     "description": "GraphQL client with schema importer for building queries through a dedicated UI or editing manually. Supports queries, mutations, subscriptions with variables. Builds its own requests with auto-generated headers and POST method",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Voiden Team",
     "priority": 15,
     "bundled": true,
@@ -344,7 +344,7 @@
       "Schema viewer with tabs for Query/Mutation/Subscription operations",
       "Auto-generation of queries from UI selections"
     ],
-    "voidenVersion": ">=1.0.0",
+    "voidenVersion": ">=2.1.0",
     "mainProcess": false
   },
   {
@@ -355,7 +355,7 @@
     "runnerAsset": "voiden-rest-api-runner.js",
     "name": "Voiden REST API",
     "description": "HTTP/REST API testing toolkit with extensible request pipeline, custom blocks for headers/body, environment variables, response visualization, and support for all HTTP methods including multipart file uploads",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "author": "Voiden Team",
     "priority": 10,
     "bundled": true,
@@ -439,7 +439,7 @@
       "Request/response pipeline integration",
       "History API integration: custom cURL builder for global history export"
     ],
-    "voidenVersion": ">=1.0.0",
+    "voidenVersion": ">=2.1.0",
     "mainProcess": false
   },
   {
@@ -515,7 +515,7 @@
     "runnerAsset": "voiden-sockets-grpcs-runner.js",
     "name": "Sockets & gRPC APIs",
     "description": "Voiden Sockets provide comprehensive support for WebSocket (WSS) and gRPC communication with unary, server streaming, client streaming, and bidirectional streaming patterns",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "author": "Voiden Team",
     "priority": 20,
     "bundled": true,
@@ -617,7 +617,7 @@
       "Support for multiple concurrent connections",
       "History API integration: websocat/grpcurl command builder for global history export"
     ],
-    "voidenVersion": ">=1.0.0",
+    "voidenVersion": ">=2.1.0",
     "mainProcess": false
   },
   {
@@ -627,7 +627,7 @@
     "hasRunner": false,
     "name": "Voiden Stitch",
     "description": "Batch-run multiple .void files as a stitch with aggregated assertion results, variable isolation, and sequential execution",
-    "version": "1.2.2",
+    "version": "1.3.1",
     "author": "Voiden Team",
     "priority": 35,
     "bundled": true,
@@ -663,7 +663,7 @@
       "Abort/cancel support",
       "Export results to styled Excel report with per-file sheets, assertion breakdowns, and pass/fail percentages"
     ],
-    "voidenVersion": ">=1.0.0",
+    "voidenVersion": ">=2.1.0",
     "mainProcess": false
   },
   {
