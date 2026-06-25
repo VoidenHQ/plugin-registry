@@ -119,7 +119,7 @@
     "hasRunner": false,
     "name": "Postman Collection Importer",
     "description": "Seamlessly migrate from Postman by importing v2.1 collections and automatically converting them to native Voiden request files with full support for nested folders, environment variables, headers, auth, and all request body types",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "author": "Voiden Team",
     "priority": 50,
     "bundled": true,
@@ -174,7 +174,7 @@
       "Handles special characters in names",
       "Converts Postman's raw mode to appropriate body types"
     ],
-    "voidenVersion": ">=1.0.0",
+    "voidenVersion": ">=2.0.0",
     "mainProcess": true
   },
   {
@@ -355,7 +355,7 @@
     "runnerAsset": "voiden-rest-api-runner.js",
     "name": "Voiden REST API",
     "description": "HTTP/REST API testing toolkit with extensible request pipeline, custom blocks for headers/body, environment variables, response visualization, and support for all HTTP methods including multipart file uploads",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "author": "Voiden Team",
     "priority": 10,
     "bundled": true,
