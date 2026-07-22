@@ -673,8 +673,8 @@
     "description": "Browse, search, and integrate ApyHub APIs directly from Voiden.",
     "author": "ApyHub",
     "voidenVersion": ">=1.0.0",
-    "icon": "https://apyverse.dev/logo.svg",
-    "version": "1.1.0",
+    "icon": "https://apyverse.com/logo/apyhub-app-icon.svg",
+    "version": "1.2.0",
     "bundled": false,
     "repo": "apyhub/voiden-apyhub-explorer"
   },
