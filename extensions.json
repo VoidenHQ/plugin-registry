@@ -114,6 +114,109 @@
   },
   {
     "type": "core",
+    "id": "voiden-mcp-client",
+    "repo": "VoidenHQ/plugin-voiden-mcp-client",
+    "hasRunner": true,
+    "runnerAsset": "voiden-mcp-client-runner.js",
+    "name": "Voiden MCP Client",
+    "description": "Connect to an MCP (Model Context Protocol) server over HTTP — remote or local — and run a single operation against it — list/call tools, list/read resources, list/get prompts — the same way .void files already test REST and GraphQL requests.",
+    "version": "0.1.0",
+    "author": "Voiden Team",
+    "priority": 21,
+    "bundled": true,
+    "capabilities": {
+      "blocks": {
+        "owns": [
+          "mcp-connection",
+          "mcpoperation",
+          "mcp-response"
+        ],
+        "allowExtensions": true,
+        "description": "Owns 3 block types for MCP server connection, operation, and response rendering"
+      },
+      "requestPipeline": {
+        "buildHandler": true,
+        "responseHandler": true,
+        "streamingHandler": false,
+        "description": "Registers handlers for building MCP requests and rendering MCP responses (HTTP transport)"
+      },
+      "paste": {
+        "patterns": [
+          {
+            "name": "MCP Server Config",
+            "description": "Detects a pasted {\"mcpServers\": {...}} JSON config (Claude Desktop / Cursor / VS Code / Windsurf style) and fills in the block's URL and headers from the first HTTP-transport entry"
+          }
+        ]
+      },
+      "slashCommands": {
+        "groups": [
+          {
+            "name": "mcp",
+            "commands": [
+              "Insert MCP Connection"
+            ]
+          }
+        ]
+      }
+    },
+    "features": [
+      "Connect to any Streamable-HTTP MCP server, remote or running on localhost",
+      "list_tools / call_tool / list_resources / read_resource / list_prompts / get_prompt operations",
+      "Paste a Claude Desktop / Cursor / VS Code style mcpServers JSON config to fill in URL + headers",
+      "Reuses existing Auth block for HTTP-transport authentication",
+      "Reuses existing assertions-table against MCP responses"
+    ],
+    "voidenVersion": ">=2.3.1",
+    "mainProcess": false
+  },
+  {
+    "type": "core",
+    "id": "voiden-mcp-tool",
+    "repo": "VoidenHQ/plugin-voiden-mcp-tool",
+    "hasRunner": true,
+    "runnerAsset": "voiden-mcp-tool-runner.js",
+    "name": "Voiden Tool",
+    "description": "Mark an existing request as a named, typed capability an AI agent can call directly — instead of only the four generic run/list/write tools every project gets by default.",
+    "version": "0.1.0",
+    "author": "Voiden Team",
+    "priority": 22,
+    "bundled": true,
+    "capabilities": {
+      "blocks": {
+        "owns": [
+          "tool",
+          "toolparams",
+          "toolverifies"
+        ],
+        "allowExtensions": true,
+        "description": "Owns 3 block types for tool identity, parameters, and verification policy"
+      },
+      "slashCommands": {
+        "groups": [
+          {
+            "name": "tool",
+            "commands": [
+              "Insert Tool Declaration"
+            ]
+          }
+        ]
+      }
+    },
+    "features": [
+      "Declare an existing request as a named, described, agent-callable tool",
+      "Parameters table with agent-supplied vs environment-only (resolved from the project's env files, never sent to the agent) sources",
+      "Verification policy referencing other requests as happy-path/error-contract/auth-check proof the tool works, each with its own live/sandbox/none mode and optional cadence",
+      "onFailure policy — a failing tool is withdrawn from the served set by default, or kept and flagged degraded in its description",
+      "Dynamic MCP serving — verified tools become real, named/typed tools in @voiden/mcp-server and voiden-runner mcp serve, alongside the 4 built-in ones",
+      "Manual enabled override — add or remove a tool from what's served regardless of its verification state, from the Voiden app's MCP tab",
+      "voiden-runner tool list / tool verify — project-wide discovery and pass/fail verification from the CLI",
+      "voiden-runner mcp serve --check — reports served/withdrawn/degraded/excluded without starting a live session"
+    ],
+    "voidenVersion": ">=2.3.1",
+    "mainProcess": false
+  },
+  {
+    "type": "core",
     "id": "postman-import",
     "repo": "VoidenHQ/plugin-postman-import",
     "hasRunner": false,
