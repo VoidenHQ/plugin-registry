@@ -166,7 +166,7 @@
       "Reuses existing Auth block for HTTP-transport authentication",
       "Reuses existing assertions-table against MCP responses"
     ],
-    "voidenVersion": ">=2.3.1",
+    "voidenVersion": ">=2.3.0",
     "mainProcess": false
   },
   {
@@ -212,7 +212,7 @@
       "voiden-runner tool list / tool verify — project-wide discovery and pass/fail verification from the CLI",
       "voiden-runner mcp serve --check — reports served/withdrawn/degraded/excluded without starting a live session"
     ],
-    "voidenVersion": ">=2.3.1",
+    "voidenVersion": ">=2.3.0",
     "mainProcess": false
   },
   {
