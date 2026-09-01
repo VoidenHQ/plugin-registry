@@ -825,15 +825,78 @@
   {
     "id": "insomnia-importer",
     "name": "Insomnia Collection Importer",
-    "description": "Import Insomnia v4 (.json) and v5 (.yaml/.json) collection exports into Voiden \u2014 preserves folder structure, headers, query params, request bodies, and authentication.",
-    "version": "1.1.0",
+    "description": "Import Insomnia v4 (.json) and v5 (.yaml/.json) collection exports into Voiden — preserves folder structure, headers, query params, request bodies, and authentication.",
+    "version": "1.4.0",
     "voidenVersion": ">=2.1.1",
     "author": "Phurpa Tsering",
     "icon": "logo.jpg",
     "type": "community",
     "priority": 30,
-    "readme": "Import Insomnia v4 collection exports (.json) into Voiden \u2014 preserves folder structure, headers, query params, request bodies, and authentication.",
+    "readme": "Import Insomnia v4 collection exports (.json) into Voiden — preserves folder structure, headers, query params, request bodies, and authentication.",
     "bundled": false,
-    "repo": "phurpa-tsering/insomnia-importer"
+    "repo": "phurpa-tsering/insomnia-importer",
+    "features": [
+      "Import Insomnia v4 collection export JSON files",
+      "Import Insomnia v5 collection export YAML/JSON files",
+      "Automatically create folder structure matching collection hierarchy",
+      "Convert each request to a native .void file",
+      "Preserve request names and folder organization",
+      "Support for all HTTP methods (GET, POST, PUT, DELETE, PATCH, etc.)",
+      "Import request headers and convert to headers-table blocks",
+      "Import query parameters and convert to query-table blocks",
+      "Import path parameters extracted from :param URL segments",
+      "Import JSON request bodies and convert to json_body blocks",
+      "Import XML request bodies and convert to xml_body blocks",
+      "Import YAML request bodies and convert to yml_body blocks",
+      "Import binary bodies and convert to restFile blocks",
+      "Import form-data bodies and convert to multipart-table blocks",
+      "Merge authentication (Basic, Bearer, API Key, OAuth2) into headers",
+      "Translate preRequestScript/afterResponseScript (v4) or scripts.preRequest/afterResponse (v5) into live pre_script/post_script blocks when every line matches a recognized safe insomnia.* pattern — otherwise commented out in full for manual review",
+      "Import environments (v4's environment resources — base + nested sub-environments — and v5's environments/subEnvironments field) as project environment variables via Voiden's env-public.yaml, each becoming its own named environment",
+      "Sanitize file and folder names for filesystem compatibility",
+      "Progress tracking during import",
+      "Per-request error reporting without halting the full import",
+      "Batch file creation with throttling to prevent system overload",
+      "Uses voiden-rest-api helpers for consistent block generation",
+      "Generates markdown with proper YAML frontmatter",
+      "Nested folder support (unlimited depth)",
+      "Handles special characters in names"
+    ],
+    "capabilities": {
+      "ui": {
+        "buttons": [
+          {
+            "id": "insomnia-import-btn",
+            "location": "sidebar-left",
+            "icon": "Download",
+            "tooltip": "Import Insomnia Collection",
+            "description": "Opens file picker to select and import Insomnia v4 (JSON) or v5 (YAML/JSON) collection exports"
+          }
+        ],
+        "description": "Adds import button to left sidebar for easy collection import"
+      },
+      "fileSystem": {
+        "operations": [
+          "create-directory",
+          "write-file"
+        ],
+        "description": "Creates folder structure and .void files from Insomnia collection hierarchy"
+      },
+      "integration": {
+        "dependencies": [
+          {
+            "extension": "voiden-rest-api",
+            "reason": "Uses voiden-rest-api helpers to generate compatible REST API blocks",
+            "required": true
+          },
+          {
+            "extension": "voiden-scripting",
+            "reason": "Renders the pre_script/post_script blocks generated from Insomnia's preRequestScript/afterResponseScript fields",
+            "required": false
+          }
+        ],
+        "description": "Depends on voiden-rest-api extension for REST block generation"
+      }
+    }
   }
 ]
