@@ -120,7 +120,7 @@
     "runnerAsset": "voiden-mcp-client-runner.js",
     "name": "Voiden MCP Client",
     "description": "Connect to an MCP (Model Context Protocol) server over HTTP — remote or local — and run a single operation against it — list/call tools, list/read resources, list/get prompts — the same way .void files already test REST and GraphQL requests.",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "author": "Voiden Team",
     "priority": 21,
     "bundled": true,
