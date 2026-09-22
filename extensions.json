@@ -751,7 +751,7 @@
     "hasRunner": false,
     "name": "Voiden Stitch",
     "description": "Batch-run multiple .void files as a stitch with aggregated assertion results, variable isolation, and sequential execution",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "author": "Voiden Team",
     "priority": 35,
     "bundled": true,
