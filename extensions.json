@@ -344,7 +344,7 @@
     "runnerAsset": "voiden-advanced-auth-runner.js",
     "name": "Advanced Authentication",
     "description": "Advanced authentication support for HTTP/REST APIs including Bearer Token, Basic Auth, API Key, OAuth 1.0/2.0, Digest, AWS Signature, and more",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "author": "Voiden Team",
     "priority": 20,
     "bundled": true,
