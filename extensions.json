@@ -843,6 +843,18 @@
     "repo": "parvbajaj1/voiden-type-generator"
   },
   {
+    "id": "auto-auth",
+    "name": "Auto Auth",
+    "description": "Automatic authentication for your requests: your own auth scripts per API, with tokens cached per environment and refreshed when they expire.",
+    "version": "1.0.0",
+    "voidenVersion": ">=2.0.0",
+    "author": "Artur",
+    "icon": "KeyRound",
+    "type": "community",
+    "bundled": false,
+    "repo": "serawwerastat/voiden-auto-auth"
+  },
+  {
     "id": "insomnia-importer",
     "name": "Insomnia Collection Importer",
     "description": "Import Insomnia v4 (.json) and v5 (.yaml/.json) collection exports into Voiden — preserves folder structure, headers, query params, request bodies, and authentication.",
