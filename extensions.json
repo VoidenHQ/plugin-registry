@@ -920,6 +920,18 @@
     }
   },
   {
+    "id": "request-list",
+    "name": "Request List",
+    "description": "A Postman-style sidebar: every request in your project as a folder tree, with a badge for its type (GET, POST, WS, gRPC, GQL, MCP…).",
+    "version": "1.0.0",
+    "voidenVersion": ">=2.0.0",
+    "author": "Artur Filatov",
+    "icon": "List",
+    "type": "community",
+    "bundled": false,
+    "repo": "serawwerastat/voiden-request-list"
+  },
+  {
     "type": "core",
     "id": "bruno-importer",
     "repo": "VoidenHQ/plugin-bruno-importer",
