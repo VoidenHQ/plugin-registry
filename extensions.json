@@ -1005,5 +1005,29 @@
     ],
     "voidenVersion": ">=2.0.0",
     "mainProcess": false
+  },
+  {
+    "type": "community",
+    "id": "jwt-faker",
+    "name": "JWT Faker",
+    "description": "Generate, customize, sign, decode, and copy JSON Web Tokens (JWTs) directly within Voiden for testing authenticated APIs with support for HS256, HS384, HS512, and unsigned tokens.",
+    "author": "Exudev",
+    "version": "1.0.2",
+    "voidenVersion": ">=2.0.0",
+    "icon": "KeyRound",
+    "bundled": false,
+    "repo": "Exudev/voiden-plugin-jwt-faker"
+  },
+  {
+    "type": "community",
+    "id": "har-import",
+    "name": "HTTP Archive (HAR) Importer",
+    "description": "Import HTTP Archive (.har) files and automatically convert captured browser network requests into native Voiden request files with full support for headers, cookies, query parameters, request bodies, and optional static asset filtering.",
+    "author": "Exudev",
+    "version": "1.0.1",
+    "voidenVersion": ">=2.0.0",
+    "icon": "PackageSearch",
+    "bundled": false,
+    "repo": "Exudev/voiden-plugin-har-import"
   }
 ]
