@@ -563,7 +563,7 @@
       "Request/response pipeline integration",
       "History API integration: custom cURL builder for global history export"
     ],
-    "voidenVersion": ">=2.4.0",
+    "voidenVersion": ">=2.3.3",
     "mainProcess": false
   },
   {
