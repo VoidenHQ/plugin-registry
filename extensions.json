@@ -1029,5 +1029,15 @@
     "icon": "PackageSearch",
     "bundled": false,
     "repo": "Exudev/voiden-plugin-har-import"
+  },
+  {
+    "type": "community",
+    "id": "code-generator",
+    "repo": "phurpa-tsering/code-generator",
+    "name": "Code Generator",
+    "description": "Generate code for any REST request in a .void file, in JavaScript, Python, Go, Java, PHP, Ruby, C#, Swift, Kotlin, Rust, Dart and more.",
+    "author": "Phurpa Tsering",
+    "version": "1.0.0",
+    "voidenVersion": ">=2.0.0"
   }
 ]
