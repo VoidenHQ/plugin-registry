@@ -791,6 +791,54 @@
     "mainProcess": false
   },
   {
+    "type": "core",
+    "id": "voiden-mock-server",
+    "repo": "VoidenHQ/plugin-voiden-mock-server",
+    "hasRunner": false,
+    "name": "Mock Server",
+    "description": "Run a local mock HTTP server from inside Voiden — define routes with a status, headers, body and optional delay, point your frontend, client or tests at it, and watch the requests that hit it.",
+    "version": "0.1.0",
+    "author": "Voiden Team",
+    "priority": 45,
+    "bundled": true,
+    "capabilities": {
+      "sidebar": {
+        "tabs": [
+          {
+            "id": "mock-server",
+            "side": "left",
+            "title": "Mock Server",
+            "icon": "Server"
+          }
+        ],
+        "description": "Left sidebar panel to start/stop the server, edit routes and view the request log"
+      },
+      "commandPalette": {
+        "commands": [
+          "Mock Server: Start",
+          "Mock Server: Stop",
+          "Mock Server: Copy URL"
+        ]
+      },
+      "mainProcess": {
+        "description": "Runs the HTTP server in the Electron main process and reads/writes voiden-mocks.json in the active project"
+      }
+    },
+    "features": [
+      "Start and stop a local mock HTTP server from Voiden (default http://127.0.0.1:4010)",
+      "Routes with method (or ANY), path, status code, response headers, body and delay",
+      "Path patterns with :params and trailing * wildcards; first matching route wins",
+      "Routes saved in voiden-mocks.json at the project root — commit and share them",
+      "Route edits apply live while the server runs; hand edits to the file are picked up too",
+      "Optional response delay to test slow backends and timeouts",
+      "CORS headers and automatic preflight handling for browser frontends",
+      "Optional LAN mode to reach the mock from a phone or VM",
+      "Request log with headers, body, matched route and timing; add a route straight from an unmatched request"
+    ],
+    "voidenVersion": ">=2.3.0",
+    "mainProcess": true
+  },
+  {
     "type": "community",
     "id": "apyhub-explorer",
     "name": "ApyHub Explorer",
