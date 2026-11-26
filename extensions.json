@@ -1111,5 +1111,17 @@
     "voidenVersion": ">=2.4.0",
     "icon": "KeyRound",
     "bundled": false
+  },
+  {
+    "type": "community",
+    "id": "voiden-db-connector",
+    "repo": "HarshaanNiles010/voiden-db-connector",
+    "name": "Database Connector",
+    "description": "Run SQL against Postgres, MySQL and SQLite from a .void file, like any other request: write the query in the file, see results, tables and connection details in the response panel",
+    "author": "Harshaan Babra",
+    "version": "0.1.0",
+    "voidenVersion": ">=2.4.2",
+    "icon": "Database",
+    "bundled": false
   }
 ]
